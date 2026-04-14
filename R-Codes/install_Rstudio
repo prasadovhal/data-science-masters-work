@@ -1,0 +1,25 @@
+Rstudio ->
+
+sudo apt install libjpeg62
+
+sudo apt install libgstreamer-plugins-base0.10-0 libgstreamer0.10-0
+
+wget --tries=3 --timeout=120 https://download1.rstudio.org/rstudio-1.0.44-amd64.deb
+sudo dpkg -i rstudio-*-amd64.deb
+
+sudo sed -i "s|Graphics;|Education;|g" /usr/share/applications/R.desktop
+
+sudo sed -i "s|Development;|Education;Math;|g" /usr/share/applications/rstudio.desktop
+
+
+
+gnuplot ->
+
+The program 'gnuplot' can be found in the following packages:
+ * gnuplot-nox
+ * gnuplot-qt
+ * gnuplot-x11
+ * gnuplot5-nox
+ * gnuplot5-qt
+ * gnuplot5-x11
+Try: sudo apt install <selected package>
