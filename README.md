@@ -1,9 +1,9 @@
 # data-science-masters-work
-A collection of projects developed during the master's program, focused on applied machine learning, optimization, and real-world problem solving.
-Previously organized as subject-wise repositories, now refactored and consolidated into a single, structured repository.
+A collection of code developed during the master's program, focused on applied statistics, machine learning, optimization, and real-world problem solving.
+Previously organized as subject-wise repositories (deleted those), now refactored and consolidated into a single, structured repository.
 
 # Subjects
-## languages
+## Programming Languages
 1. C-Language
 2. Python
 3. R-language
